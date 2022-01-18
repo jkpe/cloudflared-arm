@@ -4,12 +4,12 @@ The official cloudflared docker repo does not provide an arm image. https://hub.
 
 This repo builds a docker image of 'cloudflared' that can be used with a Raspberry Pi.
 
-https://hub.docker.com/r/jkpe/cloudflared
+https://hub.docker.com/r/jkpe/cloudflared-arm
 
 ```
   cloudflared:
     container_name: cloudflared
-    image: jkpe/cloudflared:latest
+    image: jkpe/cloudflared-arm:latest
     volumes:
       - ./cloudflared:/etc/cloudflared
     entrypoint:
