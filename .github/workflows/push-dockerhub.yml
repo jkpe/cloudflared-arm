@@ -2,8 +2,8 @@ name: ci
 
 on:
   push:
-    branches:
-      - 'main'
+    paths:
+      - 'release-versions/*'
 
 jobs:
   docker:
